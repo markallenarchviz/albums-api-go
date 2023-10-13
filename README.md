@@ -22,4 +22,6 @@ curl localhost:8080/albums
 curl localhost:8080/albums/2
 
 # '/albuns' com método POST adiciona um álbum a lista
-curl -d "id=5&title=Born To Die&artist=Lana Del Rey&price=80.99" -X POST http://localhost:8080/albums
+curl -X POST localhost:8080/albums
+     -H 'Content-Type: application/json' 
+     -d '{"id": "5","title": "Born To Die","artist": "Lana Del Rey","price": 80.99}'
