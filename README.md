@@ -7,7 +7,7 @@ api simples com CRUD feito em memoria.
 Para rodar a aplicação basta clonar o repositório e executar a partir do arquivo main.go
 
 ```bash
-go run main.api
+go run main.go
 ```
 
 ## Uso
