@@ -11,15 +11,15 @@ go run main.api
 ```
 
 ## Uso
-A aplicação possui três rotas GET /albums, GET /albums/:id e POST /albums
+A aplicação possui três rotas: GET /albums, GET /albums/:id e POST /albums
 
 ```bash
 
-# '/albuns' retorna Json com de álbuns
+# '/albuns' retorna Json com uma lista de álbuns
 curl localhost:8080/albuns
 
-# '/albuns/2' passando um retorna Json com álbum especifico 
+# '/albuns/2' passando um ID retorna um Json com álbum especifico 
 curl localhost:8080/albuns/2
 
-# '/albuns' com método POST adiciona um álbuns a lista
+# '/albuns' com método POST adiciona um álbun a lista
 curl -d "id=5&title=Born To Die&artist=Lana Del Rey&price=80.99" -X POST http://localhost:8080/albums
