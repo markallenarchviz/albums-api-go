@@ -11,7 +11,7 @@ go run main.api
 ```
 
 ## Uso
-A aplicação irá retornar alguns ao fazer um GET para a rota /albums
+A aplicação possui três rotas GET /albums, GET /albums/:id e POST /albums
 
 ```bash
 
