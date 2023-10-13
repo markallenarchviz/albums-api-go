@@ -21,5 +21,5 @@ curl localhost:8080/albuns
 # '/albuns/2' passando um ID retorna um Json com álbum especifico 
 curl localhost:8080/albuns/2
 
-# '/albuns' com método POST adiciona um álbun a lista
+# '/albuns' com método POST adiciona um álbum a lista
 curl -d "id=5&title=Born To Die&artist=Lana Del Rey&price=80.99" -X POST http://localhost:8080/albums
